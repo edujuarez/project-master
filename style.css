@@ -9,7 +9,7 @@ body{
 
     }
     
-@media (max-width: 768px) {
+@media (max-width: 798px) {
     /*MENU CSS */
     .menu {
         position: sticky;
@@ -89,6 +89,7 @@ body{
     }
     .card-section .card img {
         width: 100%;
+        min-width: 350px;
     }
 
     /*CARROUSEL CSS  */
@@ -154,7 +155,7 @@ body{
 
     }
 }
-@media (min-width: 769px) {
+@media (min-width: 799px) {
       /*MENU CSS */
     .menu {
         position: sticky;
@@ -206,6 +207,7 @@ body{
     }
     .heroImg img {
         width: 100%;
+        min-width: 400px;
     }
 
     /*CARDS CSS  */
@@ -229,13 +231,18 @@ body{
         transition: 0.3s;
         margin: 10px 20px 10px 20px;
         background-color: white;
-        max-width: 320px;
+                overflow: hidden;
+
     }
     .card-container .card .container {
         padding: 5px 16px;
     }
     .card-container .card img {
         width: 100%;
+        max-height: 350px;
+    }
+    .container {
+
     }
 
     /*CARROUSEL CSS  */
